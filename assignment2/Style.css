@@ -1,0 +1,70 @@
+/* Selectors */
+p {
+    color: #373737;
+    font-size: 16px;
+}
+
+/* Class vs ID */
+.highlight {
+    background: rgb(255, 0, 230);
+    font-weight: bold;
+}
+
+
+/* Divs */
+header, footer {
+    background: #444;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+main {
+    padding: 20px;
+    background: #eee;
+}
+
+/* Box Model */
+img {
+    border: 3px solid rgb(255, 0, 179);D
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Positioning */
+.static-box {
+    width: 100px; height: 50px; background: rgb(153, 55, 172); color:blanchedalmond;
+}
+.relative-box {
+    background: rgb(147, 24, 209);
+    width: 100px;
+    height: 50px;
+}
+
+
+.absolute-box {
+    background: rgb(167, 26, 227);
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+/* Sizing */
+h1 {
+    font-size: 2rem;
+}
+table {
+    width: 80%;
+    font-size: 1em;
+}
+
+/* Float */
+.float-left {
+    float: left;
+    width: 45%; height: 100px; background: rgb(247, 8, 163);
+}
+.float-right {
+    float: right;
+    width: 45%; height: 100px; background: purple; color: white;
+}
+.clearfix { clear: both; }
